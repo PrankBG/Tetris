@@ -1,0 +1,101 @@
+body {
+    background-image: url(colors/background.png);
+    background-size: cover;
+    color: white;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.buffs {
+    width: 300px;
+    height: 600px;
+    border: solid 2px white;
+    border-radius: 10px;
+}
+
+.grid {
+    width: 320px;
+    height: 635px;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 5px;
+    padding-top: 0px;
+    overflow: hidden;
+}
+
+.grid div {
+    width: 30px;
+    height: 30px;
+    border: solid 1px white;
+    border-radius: 5px;
+    background-color: gray;
+    opacity: 50%;
+}
+
+.mini-grid-and-start-button {
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: solid 2px white;
+    border-radius: 10px;
+    align-items: center;
+}
+
+/* .tetromino {
+    background-color: blue;
+} */
+
+.mini-grid {
+    /* margin-left: 50px; */
+    width: 140px;
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* background-color: yellow; */
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 5px;
+    /* margin-top: -100px; */
+}
+
+.mini-grid div {
+    width: 30px;
+    height: 30px;
+    /* border: solid 0.1px black; */
+    border-radius: 5px;
+    margin-top: -7px;
+    margin-bottom: -7px;
+}
+
+#start-button {
+    /* flex-grow: 1; */
+    width: 170px;
+    height: 50px;
+    margin-bottom: 150px;
+    border-radius: 10px;
+    /* border: solid 1px; */
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    border: solid 2px white ;
+    outline: none;
+
+}
+
+#score-board {
+    margin-bottom: -80px;
+    margin-top: -50px;
+}
